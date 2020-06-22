@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{ac524d4c-9038-4e74-b6df-628651bfd308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{0b07b6b2-87df-475b-beec-e0acdec6ffd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{b7199e43-e44d-407e-99e2-0ae968aab44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d">
+      <UniqueIdentifier>{40947e90-6e48-4d6f-997c-fc8d68b8c6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{f1a7737d-c55d-49a7-a6a1-2f12b0f1e539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spring1">
+      <UniqueIdentifier>{f01bf8aa-985e-4204-89ef-ab9ebd2e9a2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IRuntimeModule.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplication.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApplication.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApplication.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderModule.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicModule.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d12x.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineStateObject.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="RootSignature.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson1_spring_sys.h">
+      <Filter>spring1</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApplication.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApplication.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderModule.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="plantfrom.cpp" />
+    <ClCompile Include="Vector.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineStateObject.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="RootSignature.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson1_spring_sys.cpp">
+      <Filter>spring1</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBuffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
