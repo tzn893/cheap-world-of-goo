@@ -241,6 +241,7 @@ void SpringSys::iter(float dt) {
 		if (point.position.y < ground) {
 			point.velocity.y = 0;
 			point.position.y = ground;
+			point.position.x *= 1e-1;
 		}
 
 		//wether the point is higher than the record?
